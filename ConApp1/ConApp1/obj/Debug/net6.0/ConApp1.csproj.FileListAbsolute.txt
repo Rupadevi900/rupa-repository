@@ -1,0 +1,15 @@
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.csproj.AssemblyReference.cache
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.AssemblyInfoInputs.cache
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.AssemblyInfo.cs
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.csproj.CoreCompileInputs.cache
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\bin\Debug\net6.0\ConApp1.exe
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\bin\Debug\net6.0\ConApp1.deps.json
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\bin\Debug\net6.0\ConApp1.runtimeconfig.json
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\bin\Debug\net6.0\ConApp1.dll
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\bin\Debug\net6.0\ConApp1.pdb
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.dll
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\refint\ConApp1.dll
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.pdb
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ConApp1.genruntimeconfig.cache
+C:\Users\Rupa\Desktop\rupa-repository\ConApp1\ConApp1\obj\Debug\net6.0\ref\ConApp1.dll
