@@ -1,0 +1,278 @@
+.Net Assessment theory 2 ( C#)
+
+1Q) .Callbyvalue and CallbyReference:-
+
+• Call by value:  In call by value original value is not modified. Only variable is passed to the function and not reference. 
+Eg; 
+using System;
+public class class1
+{
+Public void m1(int val)
+{
+  Val = val+10;
+Console.WriteLine(“value in called function is :” + val);
+}
+Public static void Main(string[] args)
+{
+Int val = 15;
+class1  e1 = new class1();
+console.WriteLine(“value before calling the function :” + val);
+e1.m1(val);
+console.WriteLine(“value after calling the function :” + val);
+console.ReadLine();
+}
+}
+
+•Call by Reference:-   It modifies the original value as the reference of the variable is passed.
+Eg: using System;
+public class class1
+{
+Public void m1( ref int val)
+{
+  Val = val+10;
+Console.WriteLine(“value in called function is :” + val);
+}
+Public static void Main(string[] args)
+{
+Int val = 15;
+class1  e1 = new class1();
+console.WriteLine(“value before calling the function :” + val);
+e1.m1( ref val);
+console.WriteLine(“value after calling the function :” + val);
+console.ReadLine();
+}
+}
+
+
+
+2Q)  Program to print output of adding,subtracting, multiplying, and dividing of two numbers which will be entered by user.
+
+namespace Example
+{
+ Internal class example2
+{
+Static void Main (string[] args)
+{
+ArithmeticOperations obj = new ArithmeticOperations();
+Console.WriteLine(“sum of two numbers  is :” + obj.Addition(10,40));
+Console.WriteLine(“sub of two numbers   is :” + obj.subtraction(10,40));
+Console.WriteLine(“mul of two numbers  is :” + obj.multiplication(10,40));
+Console.WriteLine(“div of two numbers   is :” + obj.division(10,40));
+}
+}
+}
+________________________________________
+
+
+3Q)  Program to find a Nth highest or lowest number in a given series of numbers:-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assessment
+{
+    internal class Class3
+      
+namespace Exam
+    {
+       
+        {
+            class 
+            {
+                static void Main()
+                {
+                    List<long> list = new List<long> { 100, 200, 250, 300, 400, 600 };
+                    foreach (long ele in list)
+                    {
+                        Console.WriteLine(ele);
+                    }
+
+                    long max_num = list.AsQueryable().Max();
+                    long min_num = list.AsQueryable().Min();
+
+                    Console.WriteLine("Smallest number = {0}", min_num);
+                    Console.WriteLine("Largest number = {0}", max_num);
+                }
+            }
+ }
+
+
+
+4Q)  Program to convert first letter of each word into upper case and others into   lower case froma given string.
+using system;
+namespace Assessment
+{
+    internal class Class4
+      
+    {
+        public static void Main()
+        {
+            string Str;
+            int i, length, lower, upper;
+            Str = "rupa";
+            Console.Write("String: " + Str);
+            upper = 0;
+            lower = 0;
+            length = Str.Length;
+            for (i = 0; i < length; i++)
+            {
+                if (Str[i] >= 'a' && Str[i] <= 'b')
+                {
+                    lower++;
+                }
+                else if (Str[i] >= 'A' && Str[i] <= 'B')
+                {
+                    upper++;
+                }
+            }
+            Console.Write("\nCharacters in lowecase: {0}\n", lower);
+            Console.Write("Characters in uppercase: {0}\n\n", upper);
+        }
+    }
+}
+
+
+
+5Q) Program to print how many caps letters,small letters and words are present in a given string.
+using System;
+	class Count {
+	
+	public static void Main()
+	{
+	
+	String str = "#UPPERlower123!@#";
+	int upper = 0, lower = 0;
+	int number = 0, special = 0;
+
+	for(int i = 0; i < str.Length; i++)
+	{
+	char ch = str[i];
+	if (ch >= 'A' && ch <= 'Z')
+	upper++;
+	else if (ch >= 'a' && ch <= 'z')
+	lower++;
+	else if (ch >= '0' && ch <= '9')
+	number++;
+	else
+	special++;
+	}
+	Console.WriteLine("Upper_case letters : " + upper);
+	Console.WriteLine("Lower _case letters : " + lower);
+	Console.WriteLine("Number : " + number);
+	Console.Write("Special characters : " + special);
+	}
+	}
+
+
+
+
+6Q)  Explain the differences between Abstract class and interfaces.
+
+Abstract class:- 
+Data abstraction is the process of hiding certain details and showing only essential information to the user.
+Abstract class:  It is a restricted class that cannot be used to create objects
+An abstract class can have both abstract and regular methods:
+eg:-
+abstract class Animal 
+{
+  public abstract void animalSound();
+  public void sleep() 
+  {
+    Console.WriteLine("Zzz");
+  }
+}
+
+Interfaces:-
+Another way to achieve abstraction in C#, is with interfaces.
+An interface is a completely "abstract class", which can only contain abstract methods and properties (with empty bodies):
+By default, members of an interface are abstract and public.
+Interfaces can contain properties and methods, but not fields.
+// interface
+interface Animal 
+{
+  void animalSound(); // interface method (does not have a body)
+  void run(); // interface method (does not have a body)
+}
+
+
+
+
+  7Q) Explain about method overloading and overriding with example.
+Overloading:
+Overloading is having multiple methods within the same class with the same name, but with different parameters.
+using System;
+namespace Assessment_7
+{
+    internal class Classs
+            {
+                static void Main()
+                {
+           public class Calculator
+        {
+            public int Add(int a, int b) => a + b;
+            public int Add(int a, int b, int c) => a + b + c;
+            public double Add(double a, double b) => a + b;
+            public double Add(double a, double b, double c) => a + b + c;
+        }
+    }
+
+Overriding:
+Overriding, on the other hand, is the ability to redefine the implementation of a method in a class that inherits from a parent class.
+public class Name
+    {
+        public virtual void RUPA()
+        {
+            Console.WriteLine("RUPA");
+        }
+    }
+
+
+
+
+8Q)  Write a method with 2 parameters(sorting type,sort data) and return the sorted data.
+var nums = new List<int> { 2, 1, 8, 0, 4, 3, 5, 7, 9 };
+
+nums.Sort();
+Console.WriteLine(string.Join(",", nums));
+
+nums.Reverse();
+Console.WriteLine(string.Join(",", nums));
+
+
+
+
+9Q) Program to remove duplicate characters from a given string. 
+using System;
+using System.Linq;
+using System.Collections.Generic;
+   class Program {
+      static void Main(string[] args) {
+         string myStr = "aabbhhjkhjkk";
+         Console.WriteLine("Initial String: "+myStr);
+         var unique = new HashSet<char>(myStr);
+         Console.Write(" removing duplicates: ");
+         foreach (char c in unique)
+         Console.Write(c);
+      }
+   }
+
+
+
+
+10Q) C# method which takes string parameter  and returns a reversed string/number given in a parameter.
+
+ static void Main(string[] args)  
+   {  
+        ReverseStringWithInbuiltMethod("chichas tea stall ");  
+   }  
+   private static void ReverseStringWithInbuiltMethod(string stringInput)  
+   {  
+          char[] charArray = stringInput.ToCharArray();  
+          Array.Reverse(charArray);  
+          Console.WriteLine(new string(charArray));  
+   }   
+
+
+
