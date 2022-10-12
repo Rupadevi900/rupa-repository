@@ -7,14 +7,13 @@ import { AdminFooterComponent } from './admin-footer/admin-footer.component';
 
 
 @NgModule({
-  declarations: [
-    AdminHeaderComponent,
-    AdminFooterComponent
-  ],
+  declarations: [ AdminHeaderComponent,
+    AdminFooterComponent],
   imports: [
     CommonModule,
     SharedRoutingModule
   ],
-  exports:[AdminHeaderComponent,AdminFooterComponent]
+  exports: [AdminHeaderComponent, AdminFooterComponent]
+
 })
 export class SharedModule { }
