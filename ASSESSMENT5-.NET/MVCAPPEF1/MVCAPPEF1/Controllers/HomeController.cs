@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Web;
 using System.Web.Mvc;
 
@@ -31,8 +32,8 @@ namespace MVCAPPEF1.Controllers
             decimal minsalary = context.Employees.Min(x => x.EmpSalary);
             decimal totalsalary = context.Employees.Sum(x=> x.EmpSalary);
 
-            employees = context.Employees.OrderBy(x=>x.EmpSalary).ToList();
-            employees = context.Employees.OrderByDescending(x => x.EmpSalary).ToList();
+           // employees = context.Employees.OrderBy(x=>x.EmpSalary).ToList();
+           // employees = context.Employees.OrderByDescending(x => x.EmpSalary).ToList();
 
             var emplist = (from a in context.Employees
                            join b in context.Departments on a.DeptId equals b.DeptId
@@ -57,11 +58,59 @@ namespace MVCAPPEF1.Controllers
             return View();
         }
 
+ 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
+        [HttpGet]
+        public ActionResult Create()
+        {
+            
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Employee emp)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            emp.EmpId = 0;
+            context.Employees.Add(emp); //in memory commit
+            context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult Details(int id)
+        {
+            var emp = context.Employees.Where(x => x.EmpId == id).SingleOrDefault();
+            return View(emp);
+        }
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var emp = context.Employees.Where(x => x.EmpId == id).SingleOrDefault();
+            return View(emp);
+        }
+        [HttpPost]
+        public ActionResult Edit(Employee emp)
+        {
+            context.Entry(emp).State = System.Data.Entity.EntityState.Modified;
+            context.SaveChanges();
+
+
+            return RedirectToAction("index");
+        }
+        public ActionResult Delete(int id)
+        {
+            var emp = context.Employees.Where(x => x.EmpId == id).SingleOrDefault();
+            context.Employees.Remove(emp);
+            context.SaveChanges();
+            return RedirectToAction("index");
+        }
     }
 }
+

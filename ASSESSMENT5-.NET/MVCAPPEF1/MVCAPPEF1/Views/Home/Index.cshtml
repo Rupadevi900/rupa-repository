@@ -7,33 +7,46 @@
 
 <h2>Index</h2>
 
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DeptId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpSalary)
+        </th>
+        <th></th>
+    </tr>
 
-<div class="row">
-    <div class="col-md-8">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Emp.Id</th>
-                    <th>Emp.Name</th>
-                    <th>Dept.Name</th>
-                    <th>Dep.Location</th>
-                    <th>Emp.Salary</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach(var emp in Model)
-            {
-                    <tr>
-                        <td>@emp.EmpId</td>
-                        <td>@emp.EmpName</td>
-                        <td>@emp.Department.DeptName</td>
-                        <td>@emp.Department.DeptLocation</td>
-                        <td>@emp.EmpSalary</td>
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DeptId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpSalary)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EmpId  }) |
+            @Html.ActionLink("Details", "Details", new {  id=item.EmpId }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.EmpId })
+        </td>
+    </tr>
+}
 
-                    </tr>
-            }
-            </tbody>
-        </table>
-    </div>
-
-</div>
+</table>
