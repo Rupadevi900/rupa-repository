@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\bin\Debug\net5.0\HRMSProject.repository.deps.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\bin\Debug\net5.0\HRMSProject.repository.runtimeconfig.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\bin\Debug\net5.0\HRMSProject.repository.runtimeconfig.dev.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\bin\Debug\net5.0\HRMSProject.repository.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\bin\Debug\net5.0\HRMSProject.repository.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\refint\HRMSProject.repository.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\HRMSProject.repository.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.repository\obj\Debug\net5.0\ref\HRMSProject.repository.dll

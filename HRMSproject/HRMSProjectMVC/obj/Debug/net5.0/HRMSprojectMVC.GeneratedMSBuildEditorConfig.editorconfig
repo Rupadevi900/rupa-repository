@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = HRMSprojectMVC
-build_property.ProjectDir = C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSprojectMVC\
+build_property.RootNamespace = HRMSProjectMVC
+build_property.ProjectDir = C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProjectMVC\

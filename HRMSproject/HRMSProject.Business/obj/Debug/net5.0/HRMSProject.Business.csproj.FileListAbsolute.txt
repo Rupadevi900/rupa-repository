@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.Business.deps.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.Business.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.Business.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.Models.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.repository.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.Models.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\bin\Debug\net5.0\HRMSProject.repository.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\refint\HRMSProject.Business.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\HRMSProject.Business.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Business\obj\Debug\net5.0\ref\HRMSProject.Business.dll

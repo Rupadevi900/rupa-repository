@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\bin\Debug\net5.0\HRMSProject.communications.deps.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\bin\Debug\net5.0\HRMSProject.communications.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\bin\Debug\net5.0\HRMSProject.communications.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\refint\HRMSProject.communications.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\HRMSProject.communications.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.communications\obj\Debug\net5.0\ref\HRMSProject.communications.dll

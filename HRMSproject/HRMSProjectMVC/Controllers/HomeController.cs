@@ -1,4 +1,4 @@
-﻿using HRMSprojectMVC.Models;
+﻿using HRMSProjectMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HRMSprojectMVC.Controllers
+namespace HRMSProjectMVC.Controllers
 {
     public class HomeController : Controller
     {

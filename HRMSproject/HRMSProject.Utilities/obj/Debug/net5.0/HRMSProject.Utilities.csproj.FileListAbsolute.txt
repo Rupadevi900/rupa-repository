@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.deps.json
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\bin\Debug\net5.0\HRMSProject.Utilities.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\refint\HRMSProject.Utilities.dll
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\HRMSProject.Utilities.pdb
+C:\Users\Lenovo\Desktop\practice\rupa-repository\HRMSproject\HRMSProject.Utilities\obj\Debug\net5.0\ref\HRMSProject.Utilities.dll

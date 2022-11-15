@@ -4,4 +4,20 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRMSProject.Business\HRMSProject.Business.csproj" />
+    <ProjectReference Include="..\HRMSProject.communications\HRMSProject.communications.csproj" />
+    <ProjectReference Include="..\HRMSProject.Models\HRMSProject.Models.csproj" />
+    <ProjectReference Include="..\HRMSProject.repository\HRMSProject.repository.csproj" />
+    <ProjectReference Include="..\HRMSProject.Utilities\HRMSProject.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
